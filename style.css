@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,.4);
+    background-image:  linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8)), url(/Image/IN-en-20220912-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 8px solid #222;
+}
+#logo{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    color: red;
+    padding: 20px;
+}
+.left-navbar{
+    display: flex;
+    margin-right: 60px;
+}
+.dropdown{
+    padding: 0px 40px;
+}
+.button{
+    padding: 5px 20px;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 400;
+    border-radius: 5px;
+    background-color: red;
+    border: 1px solid red;
+    opacity: 0.9;
+}
+.header-center{
+    text-align: center;
+    color: white;
+    margin-top: 140px;
+}
+.header-center h1{
+    font-size: 65px;
+    font-weight: bold;
+}
+.header-center h5{
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+#search{
+    width: 500px;
+    height: 10vh;
+    padding: 15px;
+    font-size: 20px;
+}
+.search-box{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.start-button{
+    text-align: center;
+    height: 10vh;
+    width: 250px;
+    background-color: red;
+    font-size: 30px;
+    padding: 10px 25px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.section-1{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    border-bottom: 8px solid #222;
+}
+.section-1-text{
+    text-align: center;
+    padding-top: 120px;
+}
+.section-1-text h1{
+    font-size: 55px;
+    font-weight: bolder;
+}
+.section-1-text h3{
+    text-align: left;
+    padding-top: 13px;
+    margin-left: 30px;
+    font-size:  1.625rem;
+}
+.section-1-image .image-1{
+    margin-left: 100px;
+    width: 75%;
+}
+.Questions{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 125vh;
+    padding-top: 50px;
+    background-color: black;
+    display: inline-block;
+    border-bottom: 8px solid #222;
+}
+.Questions h1{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+.accordion{
+    width: 800px;
+    text-align: center;
+    margin-left: 350px;
+}
+.accordion-search{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+.accordion-search h5{
+    padding-bottom: 10px;
+}
+.main-footer{
+    width: 100%;
+    height: 50vh;
+    padding-top: 50px;
+    background-color: black;
+    color: white;
+}
+.main-footer h6{
+    margin-left: 290px;
+    color: #737373;
+}
+.footer{
+    display: flex;
+    text-align: left;
+    padding: 20px;
+    margin-left: 150px;
+    
+}
+.footer p{
+    font-size: 12px;
+    color: #737373;
+    padding-left: 120px;
+    align-items: center;
+    justify-items: center;
+    cursor: pointer;
+}
+.footer p:hover{
+    text-decoration: underline;
+}
+.main-footer span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footer-language{
+    margin-left: 240px;
+}
+
+@media (max-width:1200px) {
+    .accordion{
+        width: 750px;
+        margin-left: 230px;
+    }
+    .section-1-image .image-1{
+        width: 55%;
+    }
+    .section-1-text h1 h3{
+        padding-top: 80px;
+        padding-right: 50px;
+    }
+    .main-footer{
+        width: 100%;
+        height: 60vh;
+        padding-top: 60px;
+    }
+    .footer{
+        padding: 20px;
+        margin-left: 150px;
+        
+    }
+    .main-footer h6{
+        margin-left: 190px;
+        color: #737373;
+    }
+    .footer p{
+        font-size: 12px;
+        color: #737373;
+        padding-left: 20px;
+    }
+    .footer-language{
+        margin-left: 140px;
+    }
+}
+@media (max-width:768px) {
+    .accordion{
+        width: 550px;
+        margin-left: 130px;
+    }
+    .header-center h1{
+        font-size: 45px;
+    }
+    .header-center h5{
+        font-size: 23px;
+        padding-bottom: 10px;
+    }
+    #search{
+        height: 9vh;
+        padding: 15px;
+        font-size: 18px;
+    }
+    .search-box{
+        display: inline-block;
+    }
+    .start-button{
+        margin-top: 20px;
+        margin-left: 150px;
+        height: 6vh;
+        width: 180px;
+        font-size: 16px;
+        padding: 5px 5px;
+    }
+    .section-1{
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+        text-align: center;
+        height: 140vh;
+        display: inline-block;
+    }
+    .section-1-text{
+        padding-top: 30px;
+    }
+    .section-1-text h1{
+        font-size: 45px;
+    }
+    .section-1-text h3{
+        text-align: center;
+        padding-top:10px;
+        margin-left: 30px;
+        font-size:  1.625rem;
+    }
+    .section-1-image .image-1{
+        margin-left: 10px;
+        width: 85%;
+    }
+    .Questions h1{
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: 38px;
+    }
+    .main-footer{
+        width: 100%;
+        height: 60vh;
+        padding-top: 60px;
+    }
+    .main-footer h6{
+        margin-left: 90px;
+        color: #737373;
+    }
+    .footer{
+        display: flex;
+        text-align: left;
+        padding: 20px;
+        margin-left: 30px;
+        
+    }
+    .footer p{
+        font-size: 12px;
+        color: #737373;
+        padding-left: 40px;
+        align-items: center;
+        justify-items: center;
+        cursor: pointer;
+    }
+    .footer-language{
+        margin-left: 50px;
+    }
+    .accordion-search h5{
+        color: white;
+        font-size: 26px;
+    }
+}
+@media (max-width:425px) {
+    .accordion{
+        width: 350px;
+        margin-left: 30px;
+    }
+    .accordion-search h5{
+      font-size: 16px;
+    }
+    #search{
+        width: 400px;
+        height: 8vh;
+        padding: 10px;
+        font-size: 14px;
+    }
+    .header-center{
+        margin-top: 60px;
+    }
+    .left-navbar{
+        margin-right: 15px;
+    }
+    .header-center h1{
+        font-size: 30px;
+    }
+    .header-center h5{
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .section-1{
+        padding-top: 20px;
+        height: 80vh;
+    }
+    .main-footer{
+        width: 100%;
+        height: 60vh;
+        padding-top: 40px;
+    }
+    .main-footer h6{
+        margin-left: 20px;
+    }
+    .footer{
+        padding: 10px;
+        margin-left: -30px;
+        margin-top: 20px;
+    }
+    .footer-language{
+        margin-left: -20px;
+    }
+    .start-button{
+        margin-top: 20px;
+        margin-left: 100px;
+        height: 6vh;
+        width: 180px;
+        font-size: 16px;
+        padding: 5px 5px;
+    }
+    .section-1-text h1{
+        font-size: 35px;
+    }
+    .section-1-text h3{
+        text-align: center;
+        padding-top:10px;
+        margin-left: 30px;
+        font-size:  17px;
+    }
+    
+}
+
